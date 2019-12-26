@@ -19,7 +19,6 @@ var c = false;
 
 
 drawer.style.display = "none";
-drawer.style.opacity = "0%";
 
 function arcBurgerClicker() {
   if (c === false) {
@@ -36,7 +35,6 @@ function arcBurgerClicker() {
 function openDrawer() {
   basic.style.display = "none";
   drawer.style.display = "block";
-  drawer.style.opacity = "100%";
   burger.text = "Х";
   console.log(basic.style.display);
   console.log(drawer.style.display);
@@ -44,7 +42,6 @@ function openDrawer() {
 
 function closeDrawer() {
   basic.style.display = "block";
-  drawer.style.opacity = "0%";
   drawer.style.display = "none";
   burger.text = "=";
   console.log(basic.style.display);
