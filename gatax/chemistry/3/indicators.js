@@ -1,20 +1,26 @@
+var texto = document.getElementById("texto");
+
 function findType() {
   
   var type = prompt("What is the solution type?");
   
   if (type == "acid") {
     
-    alert("");
+    texto.innerText = "";
+    texto.style.color = "#414141";
     
   } else if (type == "base") {
     
-    alert("");
+    texto.innerText = "";
+    texto.style.color = "#414141";
     
   } else if (type == "nutral") {
     
-    alert("");
+    texto.innerText = "";
+    texto.style.color = "#414141";
     
   } else {
-    alert("undefined");
+    texto.innerText = "undefined";
+    texto.style.color = "red";
   }
 }
