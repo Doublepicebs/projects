@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aroma CSS docs</title>
+  <link rel="stylesheet" href="https://aromacss.glitch.me/aroma.min.css" />
+  <link rel="stylesheet" href="../../../assets/js/obsidian.css">
+  <style>
+    .pre {
+      background-color: #212121;
+       !important
+    }
+
+    .showme {
+      background-color: #e0e0e0;
+      margin: 5px;
+      padding: 2.5px;
+      border-radius: 10px;
+       !important
+    }
+
+    .section {
+      margin-top: 10px;
+       !important margin-bottom: 10px;
+       !important
+    }
+  </style>
+</head>
+
+<body class="arc-body" style="padding: 5px; !important">
+  
+  <h2 class="arc-title">Links</h2>
+  
+  <br><br><br><br>
+  
+  
+  <p>
+    Links are blue in colour, special in design to indicate that they are interactive. A simple link would look like this:
+  </p>
+  
+  <pre class="arc-code arc-code-block arc-rounded pre"><code data-language="html">
+&lt;a class="arc-link" href="ourwebsite.com"&gt; Our Website &lt;/a&gt;
+               </code></pre>
+               <a class="arc-link" href="ourwebsite.com">Our Website</a>
+               <br>
+               <p>
+                 Links can also be light in colour, using:
+               </p>
+  <pre class="arc-code arc-code-block arc-rounded pre"><code data-language="html">
+&lt;a class="arc-link-light"&gt; An awesome light link&lt;/a&gt;
+&lt;!--or--&gt;
+&lt;a class="arc-footer-link"&gt; This is a footer link &lt;/a&gt;
+               </code></pre>
+                <a class="arc-link-light" href="ourwebsite.com">An Awesome light link</a>
+                <br>
+                <p>Footer and light links are totally the same, the reason for this is a Esign (Early stages of aroma css) - Aroma migration naming. </p>
+  
+  <script src="../../../assets/js/rainbow-custom.min.js"></script>
+  <script>
+    var rainbow = require('rainbow-code');
+    var highlighted = rainbow.colorSync('var foo = true;', 'html');
+  </script>
+</body>
+
+</html>

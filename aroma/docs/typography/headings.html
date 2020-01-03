@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aroma CSS docs</title>
+  <link rel="stylesheet" href="https://aromacss.glitch.me/aroma.min.css" />
+  <link rel="stylesheet" href="../../../assets/js/obsidian.css">
+  <style>
+    .pre {
+      background-color: #212121;
+       !important
+    }
+
+    .showme {
+      background-color: #e0e0e0;
+      margin: 5px;
+      padding: 2.5px;
+      border-radius: 10px;
+       !important
+    }
+
+    .section {
+      margin-top: 10px; !important
+      margin-bottom: 10px; !important
+    }
+  </style>
+</head>
+
+<body class="arc-body" style="padding: 5px; !important">
+  <h2 class="arc-title">Headings</h2>
+  <br><br><br>
+  <h3 class="arc-subtitle">Titles</h3>
+  <p>
+    Aroma uses the html h tags for specifying headings. To add the aroma styles, use <code class="arc-code arc-rounded">.arc-title</code>
+  </p>
+  <section class="section">
+    <pre class="arc-code arc-code-block arc-rounded pre"><code data-language="html">
+&lt;h3 class="arc-title"&gt; This is a title &lt;/h3&gt;
+      </code></pre>
+    <div class="showme">
+      <h3 class="arc-title"> This is a title </h3>
+    </div>
+  </section>
+  <br><br>
+  <section class="section">
+    <h3 class="arc-subtitle">Inverted Titles</h3>
+    <pre class="arc-code arc-code-block arc-rounded pre"><code data-language="html">
+&lt;h3 class="arc-title-inverted"&gt; This is an inverted title &lt;/h3&gt;
+             </code></pre>
+    <div class="showme">
+      <h3 class="arc-title-inverted"> This is an inverted title </h3>
+    </div>
+  </section>
+  <br><br>
+  <section>
+    <h3 class="arc-subtitle">Subtitles</h3>
+    <p>
+      Subtitles are the same as titles in definition, just instead of <code class="arc-code arc-rounded">.arc-title</code> use <code class="arc-code arc-rounded">.arc-subtitle</code>
+    </p>
+  </section>
+  <script src="../../../assets/js/rainbow-custom.min.js"></script>
+  <script>
+    var rainbow = require('rainbow-code');
+    var highlighted = rainbow.colorSync('var foo = true;', 'html');
+  </script>
+</body>
+
+</html>
